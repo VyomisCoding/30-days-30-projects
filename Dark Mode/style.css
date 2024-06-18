@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/*jhaa jhaa prr bhii inn colors ko use
+kiyaa jayega whaa var(--primary-color) or 
+var(--secondary-color) ese krke use kiya jeyaga*/
+:root{
+    --primary-color:#edf2fc;
+    --secondary-color:#212121;
+}
+
+.dark-theme{
+    --primary-color:#000106;
+    --secondary-color:#fff;
+
+}
+
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+.hero{
+    height:100vh;
+    width: 100%;
+    background: var(--primary-color);
+    font-family: monospace;
+    position: relative;
+}
+
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:var(--secondary-color);
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: #ff4321;
+}
+
+
+
+
